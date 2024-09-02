@@ -8,12 +8,12 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Web Responsive UI',
+      title: 'Flutter Responsive UI',
       theme: ThemeData(
         primarySwatch: Colors.green,
       ),
       home: HomePage(),
-      debugShowCheckedModeBanner: false, // Removed debug banner
+      debugShowCheckedModeBanner: false, 
     );
   }
 }
@@ -146,7 +146,7 @@ class TabletLayout extends StatelessWidget {
       child: Padding(
         padding: const EdgeInsets.symmetric(horizontal: 48.0, vertical: 32.0),
         child: Column(
-          crossAxisAlignment: CrossAxisAlignment.center, // Center the text
+          crossAxisAlignment: CrossAxisAlignment.center, 
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Text(
@@ -155,7 +155,7 @@ class TabletLayout extends StatelessWidget {
                 fontSize: 48,
                 fontWeight: FontWeight.bold,
               ),
-              textAlign: TextAlign.center, // Center align the text
+              textAlign: TextAlign.center, 
             ),
             SizedBox(height: 24),
             Text(
@@ -168,7 +168,7 @@ class TabletLayout extends StatelessWidget {
             ElevatedButton(
               onPressed: () {},
               style: ElevatedButton.styleFrom(
-                backgroundColor: Colors.green, // Corrected parameter for button color
+                backgroundColor: Colors.green, 
                 padding: EdgeInsets.symmetric(
                   horizontal: 32,
                   vertical: 20,
@@ -215,7 +215,7 @@ class MobileLayout extends StatelessWidget {
             ElevatedButton(
               onPressed: () {},
               style: ElevatedButton.styleFrom(
-                backgroundColor: Colors.green, // Corrected parameter for button color
+                backgroundColor: Colors.green, 
                 padding: EdgeInsets.symmetric(
                   horizontal: 24,
                   vertical: 16,
